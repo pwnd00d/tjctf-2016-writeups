@@ -1,6 +1,6 @@
 # イヤホンと蝉時雨 (Earphones and a Chorus of Cicadas)
 
-In this problem, we're given [cicadas.txt](cicadas.txt), a file that contains some instructions at the top and then a series of strange equations. We're being told that every letter represents a digit, and that uppercase and lowercase letters may represent different numbers.
+In this problem, we're given [cicadas.txt](files/cicadas.txt), a file that contains some instructions at the top and then a series of strange equations. We're being told that every letter represents a digit, and that uppercase and lowercase letters may represent different numbers.
 
 As soon as I saw this problem, I realized this would be a task for [z3](http://rise4fun.com/z3), a theorem prover. To put it simply, this can solve systems of equations very quickly. Essentially, what we'd need to do is turn all the equations from the text file we were given originally into a set of executable commands for z3, to crank out all the numbers.
 
