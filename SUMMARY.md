@@ -1,3 +1,3 @@
 # Summary
 
-* [Misc](misc.md)
+* [Misc](misc)
